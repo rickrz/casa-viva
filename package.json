@@ -1,0 +1,14 @@
+{
+  "name": "casa-viva",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Loja virtual estática da Casa Viva — móveis, casa e eletrodomésticos.",
+  "scripts": {
+    "build": "node build.mjs",
+    "preview": "node server.mjs",
+    "check": "node tools/verificar-links.mjs"
+  },
+  "engines": {
+    "node": ">=20.11"
+  }
+}
